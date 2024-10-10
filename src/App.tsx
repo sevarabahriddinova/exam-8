@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom"
+import Nav from "./components/nav/Nav"
 import Home from "./routes/home/Home"
 import Blush from "./routes/blush/Blush"
 import Bronzer from "./routes/bronzer/Bronzer"
@@ -19,6 +20,8 @@ function App() {
   return (
     <>
        
+       <Nav/>
+
    <div className="App">
            <Routes>
         <Route path="/" element={<Home />} />
