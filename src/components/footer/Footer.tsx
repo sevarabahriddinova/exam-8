@@ -20,32 +20,32 @@ const Footer: React.FC = () => {
       <div className="footer__info">
         <div className="footer__links">
           <ul>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Контакты</a></li>
-            <li><a href="#">Условия использования</a></li>
-            <li><a href="#">Приложение</a></li>
+            <li><a href="#">Biz haqimizda</a></li>
+            <li><a href="#">Kontraktlar</a></li>
+            <li><a href="#">Foydalanish shartlari</a></li>
+            <li><a href="#">Ilova</a></li>
           </ul>
         </div>
         <div className="footer__links">
           <ul>
-            <li><a href="#">О доставке</a></li>
-            <li><a href="#">Способы оплаты</a></li>
-            <li><a href="#">Оригинальность продукции</a></li>
-            <li><a href="#">Обмен и возврат</a></li>
+            <li><a href="#">Yetkazish haqida</a></li>
+            <li><a href="#">To'lov usullari</a></li>
+            <li><a href="#">Mahsulotning originalligi</a></li>
+            <li><a href="#">Almashtirish va qaytarish</a></li>
           </ul>
         </div>
         <div className="footer__links">
           <ul>
-            <li><a href="#">Статьи</a></li>
-            <li><a href="#">Новости</a></li>
+            <li><a href="#">Maqolalar</a></li>
+            <li><a href="#">Yangiliklar</a></li>
             <li><a href="#">Beauty Club</a></li>
           </ul>
         </div>
         <div className="footer__contact">
           <p>+998 712 050 578</p>
-          <p>Вы можете <a href="#">написать нам письмо</a></p>
-          <p>Ежедневно с 7:55 до 20:05</p>
-          <p><a href="#">Обратный звонок</a></p>
+          <p>Вы можете <a href="#">bizga xat yozing</a></p>
+          <p>Ежедневно с 7:55 dan 20:05</p>
+          <p><a href="#">Qayta qo'ng'iroq qiling</a></p>
         </div>
       </div>
       <div className="footer__flags">
