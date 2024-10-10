@@ -1,4 +1,4 @@
-import { useGetProductsQuery } from "../../../redux/api/productsApi"
+import { useGetProductsQuery } from "../../../redux/api/products"
 import { useEffect, useState } from "react"
 import { type Product } from "../../../types"
 
