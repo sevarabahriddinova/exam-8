@@ -1,4 +1,5 @@
 import { AiOutlineShoppingCart } from "react-icons/ai";
+import { BiStar } from "react-icons/bi"; 
 import { FcLike } from "react-icons/fc";
 import { GoSearch } from "react-icons/go";
 import { Link } from "react-router-dom";
@@ -19,16 +20,18 @@ const Nav: React.FC = () => {
         <div className="nav">
             <div className="container">
                 <div className="nav__wrapper">
-                    <div>
-                        <p className="nav__p">Бесплатная доставка!</p>
-                    </div>
-                    <div className="nav__list">
-                        <ul className="nav__ul">
-                            <li className='nav__li1'>Акции</li>
-                            <li className='nav__li'>Доставка и Оплата</li>
-                            <li className='nav__li'>О магазине</li>
-                        </ul>
-                    </div>
+                <div>
+        <div className="navbar flex justify-between  w-[1400px] m-auto bg-yellow-300 pt-2 ">
+          <p>Yetkazib berish bepul!</p>
+                <ul className="flex  gap-6   "> 
+                    <li><a href="#">aktsiya</a></li>
+                    <li><a href="#">Yetkazib berish va to'lash</a></li>
+                    <li><a href="#">PROFILE</a></li>
+                </ul>
+          <p className="flex items-center gap-2"> <BiStar /> Go'zallik klubi</p>
+        </div>
+        <hr className="  m-2 font-bold"/>
+        </div>
                     <div className="nav__p2">
                         <p className="nav__p">
                             <select
