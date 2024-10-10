@@ -43,13 +43,13 @@ const Blush = () => {
       <div className="category__sidebar bg-white shadow-xl p-4">
         <h3 className="text-[28px] mb-4 pt-2">Kategoriyalar</h3>
         <div className="flex flex-col gap-6">
-          <p>Blush</p>
-          <p>Bronzes</p>
-          <p>Eyeliner</p>
-          <p>Eyeshadow</p>
-          <p>Foundation</p>
-          <p>Lipistic</p>
-          <p>Mascara</p>
+      <Link to={"/blush"}><p>Blush</p></Link>
+      <Link to={"/bronzes"}><p>Bronzes</p></Link>
+      <Link to={"/eyeliner"}> <p>Eyeliner</p></Link>
+      <Link to={"/eyeshadow"}><p>Eyeshadow</p></Link>
+      <Link to={"/foundation"}><p>Foundation</p></Link>
+      <Link to={"/lipistic"}><p>Lipistic</p></Link>
+      <Link to={"/mascara"}><p>Mascara</p></Link>
         </div>
     
    </div>
