@@ -22,7 +22,7 @@ const Brandcategory = () => {
   return (
     <div className="brand">
       <div className="container">
-        <h2 className="brand__title">Бренды Категории</h2>
+        <h2 className="brand__title">Brendlar toifalari</h2>
         <div className="brand__wrapper">
           {brands.map((brand, index) => (
             <div className="brand__imgs" key={index}>
