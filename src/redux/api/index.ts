@@ -5,6 +5,7 @@ const baseQuery = async (args: any, api: any, extraOptions: any) => {
 
   const rawBaseQuery = fetchBaseQuery({
     baseUrl: import.meta.env.VITE_BASE_URL,
+    mode: 'cors',
     prepareHeaders: (headers) => {
       const token = localStorage.getItem("token")
       if (token) {

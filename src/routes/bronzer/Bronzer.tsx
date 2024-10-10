@@ -39,9 +39,29 @@ const Price = (price: string) => {
 
   return (
    <>
+
+<div className="category">
+  <div className="category__sidebar bg-white shadow-xl p-4">
+    <h3 className="text-[28px] mb-4 pt-2">Kategoriyalar</h3>
+    <div className="flex flex-col gap-6">
+      <p>Blush</p>
+      <p>Bronzes</p>
+      <p>Eyeliner</p>
+      <p>Eyeshadow</p>
+      <p>Foundation</p>
+      <p>Lipistic</p>
+      <p>Mascara</p>
+    </div>
+  </div>
+</div>
+
+
    <div className="hit">
       <div className="container">
         <h2 className="hit__title mr-5 mt-5">Category: Bronzer</h2>
+
+
+        
         <div className="hit__wrapperr">
              {data?.map((item) => (
             <div key={item.id} className="hit__card">
