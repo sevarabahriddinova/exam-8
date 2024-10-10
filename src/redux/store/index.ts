@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import authReducer from "../slice/auth";
-import { api } from "../api/index copy";
+import { api } from "../api";
 import likeReducer from "../slice/LikeSlice";
 import currencyReducer from "../slice/CurrensySlice";
 import cartReducer from "../slice/CartSlice";

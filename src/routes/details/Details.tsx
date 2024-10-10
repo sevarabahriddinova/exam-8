@@ -97,7 +97,7 @@ const Details = () => {
                   </tr>
                   <tr>
                     <td>Группа товара:</td>
-                    <td>{product.group}</td> {/* This should now work */}
+                    <td>{product.group}</td>  
                   </tr>
                   <tr>
                     <td>Классификация:</td>

@@ -2,7 +2,7 @@ import { useGetProductsBronzerQuery} from "../../redux/api/products";
 import { Link } from "react-router-dom"
 import { addToCart } from "../../redux/slice/CartSlice";
 import { useDispatch } from "react-redux";
-import { Product } from "../../types/auth";
+import { Product } from "../../types/index";
 import { RootState } from "../../redux/store";
 import { useSelector } from "react-redux";
 import { notification } from 'antd';

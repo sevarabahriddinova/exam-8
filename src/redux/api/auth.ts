@@ -1,5 +1,5 @@
-// import { api } from "./index";
-// import { PayloadToken, User } from "../../types/auth";
+// import { api } from "./index copy";
+// import { PayloadToken, User } from "../../types/index";
 
 // const authApi = api.injectEndpoints({
 //     endpoints: (build) => ({
