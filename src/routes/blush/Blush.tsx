@@ -41,42 +41,42 @@ const Blush = () => {
    <>
       <div className="category">
       <div className="category__sidebar">
-        <h3>Категории</h3>
+        <h3>Kategoriyalar</h3>
     <form className="category__form">
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Консилер</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Лак для ногтей</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Подводка для глаз</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Помада для губ</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Пудра для лица</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Тени для век</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Тональный крем</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Аксессуары</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Апельсиновые палочки</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Аппликатор для теней</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">База для гель-лака</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">База под макияж</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Бафы для ногтей</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Консилер</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Лак для ногтей</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Подводка для глаз</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Помада для губ</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Пудра для лица</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Тени для век</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Тональный крем</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Аксессуары</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Апельсиновые палочки</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Аппликатор для теней</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">База для гель-лака</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">База под макияж</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Бафы для ногтей</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Тональный крем</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Аксессуары</p></div>
-       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Апельсиновые палочки</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Yashirin</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Tirnoq uchun lak</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">ko`z uchun padvodka</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Pomada lab uchun</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Yuz kukuni</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Ko`z uchun ten</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">yuz uchun tonalka</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Aksessuarlar</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Apelsin tayoqchalari</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Ko'z bo'yog'i uchun aplikator</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">qizlar uchun gel-lak</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Makiyaj asosi</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Tirnoq bo'yoqlari</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Yashirin</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Tirnoq uchun lak</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Ko`z uchun padvodka</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Pomada lab uchun</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Upa yuz uchun</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Ko`z uxhun ten</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Tonalniy kream</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Aksessuarlar</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Apelsin tayoqchalari</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Ko'z bo'yog'i uchun aplikator</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Pomada lab uchun</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Yuz uchun pelin</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p"> Tinoq bo`yoqlari</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Tonalniy kram</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Aksessuarlar</p></div>
+       <div className="category__checkbox"> <input type="checkbox" /> <p className="category__p">Apelsin tayoqchalari</p></div>
     </form>
    </div>
    <div className="hit">
       <div className="container">
-        <h2 className="hit__title mr-5 mt-5">Category: Blush</h2>
+        <h2 className="hit__title mr-5 mt-5">Kategoriya: Blush</h2>
         <div className="hit__wrapperr">
     {data?.map((item) => (
             <div key={item.id} className="hit__card">
@@ -92,10 +92,10 @@ const Blush = () => {
                   <span>★★★★★ {item.rating}</span>
                   <span>5</span>
                 </p>
-                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Купить</button>
+                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Xarid</button>
               </div>
             </div>
-          )).slice(3,19)}
+          )).slice(3,18)}
           </div>
       </div>
     </div>

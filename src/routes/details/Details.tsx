@@ -44,16 +44,16 @@ const Details = () => {
                 <span className="deal-tag">DEAL</span>
                 <h1>{product.name}</h1>
                 <div className="product-rating">
-                  <span>⭐⭐⭐⭐⭐</span>
-                  <span>{product.reviews} отзывов</span> {/* Ensure this is now valid */}
+                  <span>⭐⭐⭐</span>
+                  <span>{product.reviews} sharhlar</span>  
                 </div>
                 <p className="product-category">{product.category}</p>
               </div>
 
               <div className="promo-section">
-                <span className="promo-label">АКЦИЯ</span>
+                <span className="promo-label">Aksiya</span>
                 <p>{product.description}</p>
-                <p>До конца акции осталось 13 дней 06:18:36</p>
+                <p>Aksiya tugashiga 10 kun qoldi 06:00:00</p>
               </div>
             </div>
 
@@ -75,44 +75,44 @@ const Details = () => {
               <p className="availability">
                 {product.in_stock ? "Есть в наличии!" : "Нет в наличии"}
               </p>
-              <p className="product-code">Код товара: {product.id}</p>
+              <p className="product-code">Mahsulot kodi: {product.id}</p>
             </div>
           </div>
 
           <div className="details-page1">
             <div className="details-characteristics">
               <div className="tabs">
-                <span className="active-tab">Характеристики</span>
-                <span className="inactive-tab">Описание</span>
+                <span className="active-tab">Xususiyatlari</span>
+                <span className="inactive-tab">Tavsif</span>
               </div>
               <table className="product-table">
                 <tbody>
                   <tr>
-                    <td>Бренд:</td>
+                    <td>Brend:</td>
                     <td>{product.brand}</td>
                   </tr>
                   <tr>
-                    <td>Серия:</td>
+                    <td>Seriya:</td>
                     <td>{product.category}</td>
                   </tr>
                   <tr>
-                    <td>Группа товара:</td>
+                    <td>Mahsulotlar guruhi:</td>
                     <td>{product.group}</td>  
                   </tr>
                   <tr>
-                    <td>Классификация:</td>
+                    <td>Tasniflash:</td>
                     <td>{product.classification}</td>
                   </tr>
                   <tr>
-                    <td>Объем:</td>
+                    <td>Ovoz:</td>
                     <td>{product.volume}</td>
                   </tr>
                   <tr>
-                    <td>Страна TM:</td>
+                    <td>Mamlakat TM:</td>
                     <td>{product.country_tm}</td>
                   </tr>
                   <tr>
-                    <td>Коллекция:</td>
+                    <td>Kolleksiya:</td>
                     <td>{product.collection}</td>
                   </tr>
                 </tbody>

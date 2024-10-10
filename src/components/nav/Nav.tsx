@@ -1,6 +1,6 @@
+import { AiFillLike } from "react-icons/ai"; 
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { BiStar } from "react-icons/bi"; 
-import { FcLike } from "react-icons/fc";
 import { GoSearch } from "react-icons/go";
 import { Link } from "react-router-dom";
 import Mainlogo from "../../assets/download.svg";
@@ -61,7 +61,7 @@ const Nav: React.FC = () => {
                     <div className="nav__icons">
                         <div className="nav__icon__container">
                             <Link to="/like" className="nav__icon__link">
-                                <FcLike className="nav__icon" />
+                                <AiFillLike className="nav__icon" />
                                 <span className="nav__icon__counter">{like}</span>
                             </Link>
                         </div>

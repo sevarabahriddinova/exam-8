@@ -1,4 +1,5 @@
 import "./brand.css"
+import banner from "../../assets/mkp.jpg"
 import brandimg from "../../assets/blush-ff7992c3d7690d18a9b0224177cfbdedbc036497cf87c393ec01c6a2ef070258.svg"
 import brandimg2 from "../../assets/22.svg"
 import brandimg4 from "../../assets/44.svg"
@@ -21,6 +22,7 @@ const brands = [
 const Brandcategory = () => {
   return (
     <div className="brand">
+        <img className="w-full mx-auto" src={banner} alt="" />
       <div className="container">
         <h2 className="brand__title">Brendlar toifalari</h2>
         <div className="brand__wrapper">

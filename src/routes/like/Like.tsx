@@ -19,16 +19,16 @@ const Like = () => {
       <div className="sidebarr">
       <div className="sidebar">
         <ul>
-          <li>Контактная информация</li>
-          <li>Адресная книга</li>
-          <li>История заказов</li>
-          <li className="active">Список желаний</li>
-          <li>Выход</li>
+          <li>Bog'lanish ma'lumoti</li>
+          <li>Manzil kitobi</li>
+          <li>Buyurtma tarixi</li>
+          <li className="active">Istaklar ro'yxati</li>
+          <li>Chiqish</li>
         </ul>
       </div>
 
       <div className="wishlist-content">
-        <h2 className="text-3xl font-bold mb-8">Список желаний</h2>
+        <h2 className="text-3xl font-bold mb-8">Istaklar ro'yxati</h2>
         {likedProductDetails && likedProductDetails.length > 0 ? (
           likedProductDetails.map((product) => (
             <div key={product.id} className="product-card">
@@ -37,17 +37,17 @@ const Like = () => {
                 <div className="product-details">
                   <h3>{product.name}</h3>
                   <p>{product.category}</p>
-                  <p className="product-price">{product.price} сум</p>
+                  <p className="product-price">{product.price} sum</p>
                   <p className="in-stock">{product.id ? "Есть в наличии!" : "Нет в наличии"}</p>
                 </div>
               </div>
               <button className="delete-button" onClick={() => handleDelete(product.id)}>
-                Удалить
+                Delete
               </button>
             </div>
           ))
         ) : (
-          <p className="no-products">Нет понравившихся товаров.</p>
+          <p className="no-products">Sizga yoqadigan mahsulotlar yo'q.</p>
         )}
       </div>
       </div>
@@ -55,16 +55,16 @@ const Like = () => {
 
       <div className="footer">
         <div className="subscribe-section">
-          <p>Узнавайте первыми о распродажах и новинках!</p>
+          <p>Savdolar va yangi mahsulotlar haqida birinchi bo'lib xabardor bo'ling!</p>
           <input type="email" placeholder="Ваш email" />
-          <button className="subscribe-button">Подписаться</button>
+          <button className="subscribe-button">Obuna boʻling</button>
         </div>
         <div className="footer-links">
           <ul>
-            <li>О нас</li>
-            <li>Контакты</li>
-            <li>О доставке</li>
-            <li>Способы оплаты</li>
+            <li>Biz haqimizda</li>
+            <li>Kontaktlar</li>
+            <li>Yetkazib berish haqida</li>
+            <li>To'lov usullari</li>
           </ul>
         </div>
       </div>

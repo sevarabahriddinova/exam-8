@@ -65,7 +65,7 @@ const Hit = () => {
   return (
     <div className="hit">
       <div className="container">
-        <h2 className="hit__title">Предложения брендов</h2>
+        <h2 className="hit__title">Brend takliflari</h2>
         <div className="hit__wrapper">
           {data?.map((item) => (
             <div key={item.id} className="hit__card">
@@ -105,7 +105,7 @@ const Hit = () => {
             </div>
           )).slice(150, 152)}
         </div>
-        <h2 className="hit__title mt-5">Парфюмерия</h2>
+        <h2 className="hit__title mt-5">Parfyumeriya</h2>
         <div className="hit__wrapper">
           {data?.map((item) => (
             <div key={item.id} className="hit__card">
@@ -122,7 +122,7 @@ const Hit = () => {
                   <span>★★★★★ {item.rating}</span>
                   <span>5</span>
                 </p>
-                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Купить</button>
+                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Xarid</button>
               </div>
             </div>
           )).slice(130, 134)}
@@ -134,7 +134,7 @@ const Hit = () => {
         </div>
 
 
-        <h2 className="hit__title mt-5">Популярные бренды</h2>
+        <h2 className="hit__title mt-5">Mashhur brendlar</h2>
         <div className="hit__wrapper">
           {data?.map((item) => (
             <div key={item.id} className="hit__card">
@@ -151,7 +151,7 @@ const Hit = () => {
                   <span>★★★★★ {item.rating}</span>
                   <span>5</span>
                 </p>
-                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Купить</button>
+                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Xarid</button>
               </div>
             </div>
           )).slice(70, 74)}
@@ -174,7 +174,7 @@ const Hit = () => {
             </div>
           )).slice(170, 172)}
         </div>
-        <h2 className="hit__title mt-5">Парфюмерия</h2>
+        <h2 className="hit__title mt-5">Parfumeriya</h2>
         <div className="hit__wrapper">
           {data?.map((item) => (
             <div key={item.id} className="hit__card">
@@ -191,7 +191,7 @@ const Hit = () => {
                   <span>★★★★★ {item.rating}</span>
                   <span>5</span>
                 </p>
-                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Купить</button>
+                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Xarid</button>
               </div>
             </div>
           )).slice(630, 634)}
@@ -203,7 +203,7 @@ const Hit = () => {
         </div>
 
 
-        <h2 className="hit__title mt-5">Лицо</h2>
+        <h2 className="hit__title mt-5">Yuz</h2>
         <div className="hit__wrapper">
           {data?.map((item) => (
             <div key={item.id} className="hit__card">
@@ -220,7 +220,7 @@ const Hit = () => {
                   <span>★★★★★ {item.rating}</span>
                   <span>5</span>
                 </p>
-                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Купить</button>
+                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Xarid</button>
               </div>
             </div>
           )).slice(900, 904)}
@@ -243,7 +243,7 @@ const Hit = () => {
             </div>
           )).slice(90, 92)}
         </div>
-        <h2 className="hit__title mt-5">Парфюмерия</h2>
+        <h2 className="hit__title mt-5">Parfumeriya</h2>
         <div className="hit__wrapper">
           {data?.map((item) => (
             <div key={item.id} className="hit__card">
@@ -260,7 +260,7 @@ const Hit = () => {
                   <span>★★★★★ {item.rating}</span>
                   <span>5</span>
                 </p>
-                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Купить</button>
+                <button onClick={() => handleAddToCart(item)} className="hit__buy-btn">Xarid</button>
               </div>
             </div>
           )).slice(190, 194)}

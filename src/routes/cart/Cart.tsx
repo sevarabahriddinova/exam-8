@@ -25,11 +25,11 @@ const Cart = () => {
   return (
     <div className="cart-wrapper">
       <div className="cart-container">
-        <h2 className="cart-title">Корзина</h2>
+        <h2 className="cart-title">Korzinka</h2>
         {cart.products.length === 0 ? (
           <div className="empty-cart">
             <h3 className="empty-title">Korzina bosh</h3>
-            <p className="empty-subtitle">Korzinkaga nimadir qo'shing</p>
+            <p className="empty-subtitle">Korzinkaga maxsulot qo'shing</p>
           </div>
         ) : (
           <div className="cart-content">
@@ -81,11 +81,11 @@ const Cart = () => {
             </div>
             <div className="cart-summary">
               <div className="order-summary">
-                <p>Сумма заказа</p>
+                <p>Xarid narxi</p>
                 <h3>{formatPrice(cart.total)}</h3>
               </div>
               <div className="checkout-button-container">
-                <button className="checkout-button">Оформить заказ</button>
+                <button className="checkout-button">Buyurtma bering</button>
               </div>
             </div>
           </div>

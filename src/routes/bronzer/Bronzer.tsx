@@ -21,7 +21,7 @@ const Bronzer = () => {
   const handleAddToCart = (product: Product) => {
     dispatch(addToCart(product));
     notification.success({
-        message : `Siz ${product.name}  maxsuloti korzinkaga qoshildi`,
+        message : `Siz ${product.name}  maxsulot korzinkaga qoshildi`,
       })
 };
 
@@ -30,7 +30,7 @@ const Price = (price: string) => {
     if (isNaN(numbericPrice)) return "";
 
     if (currency === "UZS") {
-        return (numbericPrice * 12600).toLocaleString() + " UZS";
+        return (numbericPrice * 12000).toLocaleString() + " UZS";
     }
     return "$" + numbericPrice.toFixed(2);
 };
@@ -57,7 +57,7 @@ const Price = (price: string) => {
                   <span>★★★★★ {item.rating}</span>
                   <span>5</span>
                 </p>
-                <button  onClick={() => handleAddToCart(item)} className="hit__buy-btn">Купить</button>
+                <button  onClick={() => handleAddToCart(item)} className="hit__buy-btn">Xarid</button>
               </div>
             </div>
           ))}
