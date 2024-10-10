@@ -43,8 +43,8 @@ const Footer: React.FC = () => {
         </div>
         <div className="footer__contact">
           <p>+998 712 050 578</p>
-          <p>Вы можете <a href="#">bizga xat yozing</a></p>
-          <p>Ежедневно с 7:55 dan 20:05</p>
+          <p>Sizga mumkin<a href="#">bizga xat yozing</a></p>
+          <p>Kundalik с 7:55 dan 20:05</p>
           <p><a href="#">Qayta qo'ng'iroq qiling</a></p>
         </div>
       </div>
